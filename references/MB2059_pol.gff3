@@ -1,0 +1,40 @@
+##gff-version   3
+MB2059_pol	Dara Lehman	PCR_product	914	1443	.	.	0	ID=pol_amplicon;Name=Pol Amplicon;color=#999999
+#MB2059_pol	LANL HIV Database Annotated HXB2	MNP	953	955	.	.	0	ID=K65R;Name=K65R
+#MB2059_pol	Dara Lehman	MNP	968	970	.	.	0	ID=K70E;Name=K70E
+#MB2059_pol	LANL HIV Database Annotated HXB2	MNP	1067	1069	.	.	0	ID=K103N;Name=K103N
+#MB2059_pol	LANL HIV Database Annotated HXB2	MNP	1301	1303	.	.	0	ID=Y181C;Name=Y181C
+#MB2059_pol	LANL HIV Database Annotated HXB2	MNP	1310	1312	.	.	0	ID=M184IV;Name=M184IV
+MB2059_pol	Connor McCoy	possible_base_call_error	948	963	.	.	0	ID=K65R_homopolymer;Name=K65R Homopolymer context;color=#993333
+MB2059_pol	Connor McCoy	possible_base_call_error	1059	1073	.	.	0	ID=K103N_homopolymer;Name=K103N Homopolymer context;color=#993333
+# Mutations from Dara
+MB2059_pol	Dara Lehman	MNP	881	883	.	.	.	ID=M41L;Name=M41L;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	953	955	.	.	.	ID=K65R;Name=K65R;MutationType=NRTI;AnalysisGroup=primary
+MB2059_pol	Dara Lehman	MNP	953	955	.	.	.	ID=K65N;Name=K65N;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	959	961	.	.	.	ID=D67N;Name=D67N;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	965	967	.	.	.	ID=T69+2D;Name=T69+2D;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	968	970	.	.	.	ID=K70E;Name=K70E;MutationType=NRTI;AnalysisGroup=primary
+MB2059_pol	Dara Lehman	MNP	968	970	.	.	.	ID=K70GR;Name=K70GR;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	980	982	.	.	.	ID=L74VI;Name=L74VI;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	983	985	.	.	.	ID=V75MT;Name=V75MT;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1052	1054	.	.	.	ID=A98G;Name=A98G;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1058	1060	.	.	.	ID=L100IV;Name=L100IV;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1061	1063	.	.	.	ID=K101EPH;Name=K101EPH;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1067	1069	.	.	.	ID=K103NSTH;Name=K103NSTH;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1076	1078	.	.	.	ID=V106AM;Name=V106AM;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1082	1084	.	.	.	ID=V108I;Name=V108I;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1103	1105	.	.	.	ID=Y115F;Name=Y115F;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1172	1174	.	.	.	ID=E138AGKQR;Name=E138AGKQR;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1211	1213	.	.	.	ID=Q151LM;Name=Q151LM;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1301	1303	.	.	.	ID=Y181CIVSFG;Name=Y181CIVSFG;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1310	1312	.	.	.	ID=M184VI;Name=M184VI;MutationType=NRTI;AnalysisGroup=primary
+MB2059_pol	Dara Lehman	MNP	1310	1312	.	.	.	ID=M184V;Name=M184V;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1310	1312	.	.	.	ID=M184I;Name=M184I;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1322	1324	.	.	.	ID=Y188LCHF;Name=Y188LCHF;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1328	1330	.	.	.	ID=G190SAEQCVT;Name=G190SAEQCVT;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1388	1390	.	.	.	ID=L210W;Name=L210W;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1403	1405	.	.	.	ID=T215YF;Name=T215YF;MutationType=NRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1433	1435	.	.	.	ID=P225H;Name=P225H;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1439	1441	.	.	.	ID=F227LC;Name=F227LC;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1448	1450	.	.	.	ID=M230LI;Name=M230LI;MutationType=NNRTI;AnalysisGroup=secondary
+MB2059_pol	Dara Lehman	MNP	1472	1474	.	.	.	ID=K238T;Name=K238T;MutationType=NNRTI;AnalysisGroup=secondary

@@ -1,0 +1,623 @@
+{
+  "number": 7, 
+  "label": "plate7", 
+  "split_fastq_directory": "./data", 
+  "description": "Controls and patient samples", 
+  "sam_tags": {
+    "PL": "LS454", 
+    "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+    "LB": "prep_drm_plate7", 
+    "DS": "PrEP DRM Plate 7", 
+    "DT": "20130913"
+  }, 
+  "samples": [
+    {
+      "fastq_path": "./data/p7d1bc331.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc331", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "331", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc331", 
+        "PU": "CACGATGT", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc332.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc332", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "332", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc332", 
+        "PU": "CAGTCTAC", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc333.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc333", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "333", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc333", 
+        "PU": "CAGTGCAT", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc334.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc334", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "334", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc334", 
+        "PU": "CAGATGCT", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc335.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc335", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "335", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc335", 
+        "PU": "CAGACATC", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc336.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc336", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "336", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc336", 
+        "PU": "CAGCTAGT", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc337.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc337", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "337", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc337", 
+        "PU": "CGTACTAC", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc338.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc338", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "338", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc338", 
+        "PU": "CGTCACAT", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc339.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc339", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "339", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc339", 
+        "PU": "CGTGTATG", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc340.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc340", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "340", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc340", 
+        "PU": "CGATACAG", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc341.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc341", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "341", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc341", 
+        "PU": "CGATCGAT", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc342.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc342", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "342", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc342", 
+        "PU": "CGAGTAGT", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc343.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc343", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "343", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc343", 
+        "PU": "CGAGATCT", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc345.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc345", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "345", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc345", 
+        "PU": "TTCGCTCT", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc346.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc346", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "346", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc346", 
+        "PU": "TCTTCGCT", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d1bc347.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d1bc347", 
+      "is_control": true, 
+      "direction": "forward", 
+      "barcode_id": "347", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d1bc347", 
+        "PU": "TCAACAGG", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc331.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc331", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "331", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc331", 
+        "PU": "CACGATGT", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc332.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc332", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "332", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc332", 
+        "PU": "CAGTCTAC", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc333.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc333", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "333", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc333", 
+        "PU": "CAGTGCAT", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc334.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc334", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "334", 
+      "reference_id": "MB2059_pol_E", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc334", 
+        "PU": "CAGATGCT", 
+        "SM": "MB2059_pol_E_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc335.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc335", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "335", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc335", 
+        "PU": "CAGACATC", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc336.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc336", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "336", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc336", 
+        "PU": "CAGCTAGT", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc337.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc337", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "337", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc337", 
+        "PU": "CGTACTAC", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc338.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc338", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "338", 
+      "reference_id": "MB2059_pol_F", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc338", 
+        "PU": "CGTCACAT", 
+        "SM": "MB2059_pol_F_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc339.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc339", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "339", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc339", 
+        "PU": "CGTGTATG", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc340.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc340", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "340", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc340", 
+        "PU": "CGATACAG", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc341.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc341", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "341", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc341", 
+        "PU": "CGATCGAT", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc342.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc342", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "342", 
+      "reference_id": "MB2059_pol_H", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc342", 
+        "PU": "CGAGTAGT", 
+        "SM": "MB2059_pol_H_wt"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc343.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc343", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "343", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc343", 
+        "PU": "CGAGATCT", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc345.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc345", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "345", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc345", 
+        "PU": "TTCGCTCT", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc346.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc346", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "346", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc346", 
+        "PU": "TCTTCGCT", 
+        "SM": "MB2059_pol"
+      }
+    }, 
+    {
+      "fastq_path": "./data/p7d2bc347.fastq.bz2", 
+      "plate": 7, 
+      "sample_id": "p7d2bc347", 
+      "is_control": true, 
+      "direction": "reverse", 
+      "barcode_id": "347", 
+      "reference_id": "MB2059_pol", 
+      "sam_tags": {
+        "PL": "LS454", 
+        "CN": "Fred Hutchinson Cancer Research Center Sequencing Core", 
+        "LB": "prep_drm_plate7", 
+        "DS": "PrEP DRM Plate 7", 
+        "DT": "20130913", 
+        "ID": "p7d2bc347", 
+        "PU": "TCAACAGG", 
+        "SM": "MB2059_pol"
+      }
+    }
+  ]
+}

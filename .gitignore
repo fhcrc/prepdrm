@@ -1,0 +1,8 @@
+*.fai
+/bin/codon-sw
+/output
+/plate1_analysis*
+/venv
+/archive
+/comparison
+/vagrant_ansible_inventory_default

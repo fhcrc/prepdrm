@@ -1,0 +1,13 @@
+{
+  "number": 2,
+  "label": "plate2",
+  "split_fastq_directory": "./data",
+  "description": "Second plate of 454 Data; first with patient samples",
+  "sam_tags": {
+     "PL": "LS454",
+     "CN": "Fred Hutchinson Cancer Research Center Sequencing Core",
+     "LB": "prep_drm_plate2",
+     "DS": "PrEP DRM Plate 2",
+     "DT": "20130320"
+    }
+}

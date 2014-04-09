@@ -1,0 +1,13 @@
+{
+  "number": 1,
+  "label": "plate1",
+  "split_fastq_directory": "./data/",
+  "description": "Control run",
+  "sam_tags": {
+     "PL": "LS454",
+     "CN": "Fred Hutchinson Cancer Research Center Sequencing Core",
+     "LB": "prep_drm_plate1",
+     "DS": "PrEP DRM Control run",
+     "DT": "20130131"
+    }
+}

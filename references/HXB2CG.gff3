@@ -1,0 +1,6 @@
+##gff-version   3
+#track	name=DRM	description="HIV Drug Resistance Mutations [PrEP]"
+HIVHXB2CG	LANL HIV Database Annotated HXB2	SO:0001013	2742	2744	1.0	.	0	ID=K65R;Name=K65R
+HIVHXB2CG	LANL HIV Database Annotated HXB2	SO:0001013	2856	2858	1.0	.	0	ID=K103N;Name=K103N
+HIVHXB2CG	LANL HIV Database Annotated HXB2	SO:0001013	3090	3092	1.0	.	0	ID=Y181C;Name=Y181C
+HIVHXB2CG	LANL HIV Database Annotated HXB2	SO:0001013	3099	3101	1.0	.	0	ID=M184V;Name=M184V

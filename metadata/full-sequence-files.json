@@ -1,0 +1,11 @@
+{
+  "plate1": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_01_31/R_2013_01_31_15_35_18_JR07110624_Administrator_2013_01_31-Dara-PREP1-RNA-CNTRLS/D_2013_01_31_15_47_10_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna",
+  "plate2": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_03_20_fastq_only/2013_03_20_amplicon/1.TCA.454Reads.fna",
+  "plate3": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_04_09/D_2013_04_09_15_32_17_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna",
+  "plate4": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_06_05_fastq_only/2013_06_05_amplicon/1.TCA.454Reads.fna",
+  "plate5": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_10_25/D_2013_10_25_15_24_01_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna",
+  "plate6": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_08_23/D_2013_08_23_14_56_56_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna",
+  "plate7": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_09_13/D_2013_09_13_11_10_31_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna",
+  "plate8": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_09_26/D_2013_09_26_15_43_47_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna",
+  "plate9": "/shared/cs_researcher/Overbaugh_J/HIV_Data/data/dara/2013_09_27/D_2013_09_27_12_24_05_JR07110624_fullProcessingAmplicons/1.TCA.454Reads.fna"
+}

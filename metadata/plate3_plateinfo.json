@@ -1,0 +1,13 @@
+{
+  "number": 3,
+  "label": "plate3",
+  "split_fastq_directory": "./data",
+  "description": "Controls and patient samples",
+  "sam_tags": {
+     "PL": "LS454",
+     "CN": "Fred Hutchinson Cancer Research Center Sequencing Core",
+     "LB": "prep_drm_plate3",
+     "DS": "PrEP DRM Plate 3",
+     "DT": "20130409"
+    }
+}
