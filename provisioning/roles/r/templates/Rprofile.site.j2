@@ -1,0 +1,7 @@
+# {{ ansible_managed }}
+
+local({
+r <- getOption("repos")
+r["CRAN"] <- "{{ r_cran_mirror | mandatory }}"
+options(repos = r)
+})

@@ -1,0 +1,26 @@
+---
+
+- name: Install binary requirements and dependencies
+  apt: package={{item}} state=present
+  with_items:
+    - build-essential
+    - zlib1g-dev
+
+- name: Install Python dependencies available from apt
+  apt: pkg={{ item }} state=present
+  with_items:
+    - python-numpy
+    - python-scipy
+    - python-biopython
+    - python-pip
+    - cython
+
+- name: Install Python dependencies available from pip
+  pip: name={{ item }}
+  with_items:
+    - pip==1.5.4
+    - pysam==0.7.7
+    - seqmagick==0.5.0
+    - futures==2.1.6
+    - csvkit==0.7.2
+    - https://github.com/nhoffman/bioscons/archive/9dbd3d06eb6227cceec6ac9ee8db73cf9326fd9c.tar.gz

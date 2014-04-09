@@ -1,0 +1,13 @@
+---
+- hosts: all
+  roles:
+    - common
+    - r
+    - python
+  sudo: yes
+
+- hosts: all
+  roles:
+    - analysis_code
+    - control_data
+  sudo: no

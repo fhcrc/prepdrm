@@ -1,0 +1,19 @@
+---
+
+- name: Make an analysis directory
+  file: >
+    state=directory
+    path={{ ansible_env.HOME }}/prep_controls/data
+
+- name: Download control data
+  get_url: >
+    url=https://s3-us-west-2.amazonaws.com/prepdrm454controls/prepdrm454controls.tar
+    dest={{ ansible_env.HOME }}/prep_controls/data/prepdrm454controls.tar
+    mode=660
+    sha256sum=a85eafd7847c24e839cca05f804c20be8dec48d3b1b13ad07d6b6e0ba911ce92
+
+- name: Untar data
+  command: >
+    tar xf prepdrm454controls.tar
+    creates=p9d2bc375.fastq.bz2
+    chdir={{ ansible_env.HOME }}/prep_controls/data

@@ -1,0 +1,61 @@
+{
+  "builders": [{
+    "type": "docker",
+    "image": "cmccoy/ansible:latest",
+    "pull": false,
+    "export_path": "image.tar"
+  },
+  {
+    "type": "amazon-ebs",
+    "region": "us-west-2",
+    "source_ami": "ami-f2f19ac2",
+    "instance_type": "m1.small",
+    "ssh_username": "ubuntu",
+    "ami_name": "prepdrm-controls {{timestamp}}",
+    "ami_groups": ["all"],
+    "run_tags": {
+      "Owner": "cmccoy",
+      "Purpose": "prep-drm-testing"
+    },
+    "tags": {
+      "Owner": "cmccoy",
+      "Purpose": "prep-drm-testing"
+    }
+
+  }],
+  "provisioners": [{
+    "type": "shell",
+    "inline": ["sleep 30"],
+    "only": ["amazon-ebs"]
+  },
+  {
+    "type": "shell",
+    "inline": ["apt-get install -y -qqq sudo"],
+    "only": ["docker"]
+  },
+  {
+    "type": "shell",
+    "script": "ansible-prerequisites.sh"
+  },
+  {
+    "type": "shell",
+    "inline": ["mkdir /tmp/packer-provisioner-ansible-local"]
+  },
+  {
+    "type": "file",
+    "source": "library",
+    "destination": "/tmp/packer-provisioner-ansible-local/library"
+  },
+  {
+    "type": "ansible-local",
+    "playbook_file": "site.yml",
+    "staging_directory": "/tmp/packer-provisioner-ansible-local",
+    "role_paths": [
+      "roles/common",
+      "roles/python",
+      "roles/r",
+      "roles/analysis_code",
+      "roles/control_data"
+    ]
+  }]
+}

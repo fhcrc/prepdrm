@@ -1,0 +1,45 @@
+---
+
+- name: Add R apt key
+  command: apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+
+- name: CRAN apt repository
+  apt_repository: >
+    repo='deb {{ r_cran_mirror }}/bin/linux/ubuntu {{ ansible_distribution_release }}/'
+    state=present
+    update_cache=yes
+
+- name: Install R
+  apt: package=r-base state=present
+
+- name: Template Rprofile.site
+  template: >
+    src=Rprofile.site.j2
+    dest=/etc/R/Rprofile.site
+    owner=root
+    group=root
+    mode=644
+
+- name: Link RProfile.site
+  file: >
+    src=/etc/R/Rprofile.site
+    state=link
+    path=/etc/Rprofile.site
+    owner=root
+    group=root
+
+- name: Install libcurl
+  apt: package=libcurl4-openssl-dev state=present
+
+- name: Install R packages from CRAN
+  install_cran: pkg={{item}}
+  with_items:
+    - devtools
+    - ggplot2
+    - reshape2
+    - testthat
+
+- name: Install R packages from GitHub
+  install_devtools_github: pkg={{item}}
+  with_items:
+    - assertthat

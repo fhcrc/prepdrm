@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+import os.path
+
+def list_installed_packages(module):
+    cmd = ["R", "--vanilla", "--slave", "-e", "cat(paste(rownames(installed.packages()), collapse='\\n'), '\\n')"]
+    rc, stdout, stderr = module.run_command(cmd, check_rc=True)
+    return list(i.strip() for i in stdout.splitlines())
+
+def main():
+    module = AnsibleModule(
+        argument_spec = dict(pkg=dict(required=True)))
+
+    package = module.params['pkg']
+
+    installed = list_installed_packages(module)
+    if package in installed:
+        module.exit_json(changed=False)
+        return
+
+    cmd = ['R', '--slave', '--vanilla', '-e',
+           """library(devtools); install_github("{0}")""".format(package)]
+    rc, stdout, stderr = module.run_command(cmd, check_rc=True)
+
+    if package not in list_installed_packages(module):
+        module.fail_json(msg="Package failed", stdout=stdout, stderr=stderr)
+
+    module.exit_json(changed=True)
+
+from ansible.module_utils.basic import *
+main()

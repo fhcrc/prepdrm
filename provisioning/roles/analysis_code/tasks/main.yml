@@ -1,0 +1,17 @@
+---
+
+- name: Install git
+  apt: pkg=git state=present
+
+- name: Clone analysis pipeline
+  git: >
+    dest={{ ansible_env.HOME }}/prep_controls
+    repo=git://github.com/fhcrc/prepdrm.git
+  sudo: no
+
+- name: Install prep_drm python package
+  pip: name=. chdir={{ ansible_env.HOME }}/prep_controls/python
+  sudo: yes
+
+- name: Copy codon-sw
+  copy: src=codon-sw dest={{ ansible_env.HOME }}/prep_controls/bin
