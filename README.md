@@ -6,7 +6,7 @@ Manuscript in preparation.
 
 ## Running
 
-The `provisioning/` directory contains Ansible roles for installing all required dependencies - look there for details.
+The `provisioning/` directory contains [Ansible](http://www.ansible.com) scripts for installing all required dependencies and data - look there for details.
 
 Alternatively, use one of these options:
 
