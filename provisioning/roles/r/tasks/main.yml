@@ -12,21 +12,17 @@
 - name: Install R
   apt: package=r-base state=present
 
+- name: Get RHOME
+  command: R RHOME
+  register: rhome
+
 - name: Template Rprofile.site
   template: >
     src=Rprofile.site.j2
-    dest=/etc/R/Rprofile.site
+    dest={{ rhome.stdout }}/etc/Rprofile.site
     owner=root
     group=root
     mode=644
-
-- name: Link RProfile.site
-  file: >
-    src=/etc/R/Rprofile.site
-    state=link
-    path=/etc/Rprofile.site
-    owner=root
-    group=root
 
 - name: Install libcurl
   apt: package=libcurl4-openssl-dev state=present
