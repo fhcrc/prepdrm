@@ -12,6 +12,8 @@ Alternatively, use one of these options:
 
 * On AWS: the [AMI](http://en.wikipedia.org/wiki/Amazon_Machine_Image) `ami-0ccca73c` in `us-west-2` has all necessary dependencies and control data pre-loaded. Login as `ubuntu`.
 * Using [Vagrant](http://www.vagrantup.com): run `vagrant up`.
+* Using the [Docker](http://www.docker.io) image `cmccoy/prepdrm`:
+  `docker pull cmccoy/prepdrm; docker run -i -t -P cmccoy/prepdrm /bin/bash`.
 
 ## Data
 

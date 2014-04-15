@@ -3,7 +3,7 @@
     "type": "docker",
     "image": "ubuntu:13.10",
     "pull": false,
-    "export_path": "image.tar"
+    "export_path": "prep-drm-latest.tar"
   },
   {
     "type": "amazon-ebs",
@@ -52,10 +52,20 @@
     "staging_directory": "/tmp/packer-provisioner-ansible-local",
     "role_paths": [
       "roles/common",
-      "roles/python",
-      "roles/r",
-      "roles/analysis_code",
-      "roles/control_data"
+    "roles/python",
+    "roles/r",
+    "roles/analysis_code",
+    "roles/control_data"
+      ]
+  }],
+  "post-processors": [
+    [
+      {
+        "type": "docker-import",
+        "repository": "cmccoy/prepdrm",
+        "tag": "latest"
+      },
+      "docker-push"
     ]
-  }]
+  ]
 }

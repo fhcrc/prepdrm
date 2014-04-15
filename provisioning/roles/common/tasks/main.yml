@@ -16,6 +16,6 @@
     - git
     - htop
     - ncbi-blast+
-    - openjdk-7-jre
+    - openjdk-7-jre-headless
     - samtools
     - scons
