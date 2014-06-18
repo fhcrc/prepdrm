@@ -1,6 +1,6 @@
 # `prepdrm`
 
-Analysis pipeline for identifying low frequency drug resistance mutations (DRMs) samples from the Partners PrEP study.
+Analysis pipeline for identifying low frequency drug resistance mutations (DRMs) in samples from the Partners PrEP study.
 
 Manuscript in preparation.
 
